@@ -1,0 +1,118 @@
+@media (min-width:640px){html{font-size:24px;}}
+@media (min-width:540px) and (max-width:639px){html{font-size:20px;}}
+@media (min-width:471px) and (max-width:539px){html{font-size:18px;}}
+@media (min-width:331px) and (max-width:470px){html{font-size:14px;}}
+@media (max-width:330px){html{font-size:12px;}}
+
+html {
+  background-color: #fff;
+  font-family: PingFangSC, 'Noto Sans CJK SC', 'MS Yahei';
+  height: 100%;
+}
+body {
+	user-select: none;
+  height: 100%;
+}
+#main {
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.change{
+  color: #eee;
+  background-color: #222831;
+}
+.restart{
+  color: #222831;
+  background-color: #fff;
+}
+
+.header{
+  color: #222831;
+}
+.title2{
+  color: #222831;
+}
+
+.t2{
+  color: #222831;
+  background-color: #fff;
+  border: 1px #ccc solid;
+}
+
+.talent-list{
+  width: 24rem;
+  margin: 0 auto;
+}
+.grade0b {
+  background-color: #ededed;
+}
+.grade1b {
+  background-color: #6495ed;
+}
+.grade2b {
+	background-color: #e2a7ff;
+}
+.grade3b {
+	background-color: #ffa07a;
+}
+
+.grade0b.selected {
+  background-color: #3b3b3b !important;
+  box-shadow: #ccc 0px 0px 10px;
+  color: #fff;
+}
+.grade1b.selected {
+  background-color: #407dec !important;
+  box-shadow: #ccc 0px 0px 10px;
+  color: #fff;
+}
+.grade2b.selected {
+background-color: #b362e7 !important;
+  box-shadow: #ccc 0px 0px 10px;
+  color: #fff;
+}
+.grade3b.selected {
+  background-color: #ff7f4d !important;
+  box-shadow: #ccc 0px 0px 10px;
+  color: #fff;
+}
+
+.talent-list > li {
+  position: relative;
+  display: inline-block;
+  width: 95%;
+  margin: 0.1rem auto;
+  font-size: 1.4rem;
+  text-align: center;
+  border: 2px #c5c5c5 solid ;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  color: #222831;
+  user-select: none;
+}
+
+
+.total{
+  font-size: 1.2rem;
+  color: #222831;
+}
+.infos .info{
+  color: #222831;
+}
+.talent-title{
+  color: #222831;
+}
+.status{
+  color: #222831;
+}
+.life-route{
+  border: 1px #ccc solid;
+  background-color: #fff;
+}
+.life-event{
+  color: #222831;
+  background-color: #fff;
+  box-shadow: #a7a7a7 0 0 0.4rem;
+}
