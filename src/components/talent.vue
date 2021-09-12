@@ -125,7 +125,7 @@ const choose3Popup = () => {
   <Header title="天赋抽卡"></Header>
 
   <p class="t2 choose10" @click="showTalentList" v-show="showChoose10">10连抽！</p>
-  <p class="t2 choose3" @click="choose3Popup"> {{ choose3Tips }} </p>
+  <p class="t2 choose3" @click="choose3Popup" v-show="isShowList"> {{ choose3Tips }} </p>
 
   <ul class="talent-list" v-show="isShowList" @click="selectTalent">
     <li

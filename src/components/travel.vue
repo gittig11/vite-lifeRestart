@@ -76,6 +76,11 @@
   let displayArr = ref(empArr2)
   displayArr.value.push(...store.state.mytalents)
 
+
+  // 进入页面时自动显示0岁的事件
+  getALine()
+
+
   // 属性值使用计算属性
   const getPropertySum = (name: string) => {
     return displayArr.value.reduce((sum: number, item:eventInt) => {
